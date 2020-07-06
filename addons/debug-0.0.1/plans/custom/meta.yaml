@@ -2,4 +2,4 @@ name: custom
 id: 66ad8df0-6bba-476e-b26f-2c8f811f3e1e
 description: "Custom plan"
 displayName: Custom
-bindable: true
+bindable: false 
