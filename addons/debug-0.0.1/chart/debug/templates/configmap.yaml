@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ template "debug.fullname" . }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: {{ template "debug.name" . }}
+    chart: {{ template "debug.chart" . }}
+    heritage: {{ .Release.Service }}
+    release: {{ .Release.Name }}
+data:
+  capabilities: |-
+{{ .Capabilities | toYaml | indent 4 }}
+  values: |-
+{{ .Values | toYaml | indent 4 }}

@@ -1,0 +1,6 @@
+name: debug 
+version: 0.0.1
+id: 2c8a6c5e-47db-4fc6-9023-a98bd60b57db 
+description: "Debug service"
+displayName: "Debug"
+bindable: true
