@@ -395,7 +395,7 @@ Usage:
 Return the appropriate apiVersion for statefulset.
 */}}
 {{- define "postgresql.statefulset.apiVersion" -}}
-{{- if semverCompare "<1.14-0" .Capabilities.KubeVersion.Version -}}
+{{- if trimPrefix "v" .Capabilities.KubeVersion.Version | semverCompare "<1.14.0" -}}
 {{- print "apps/v1beta2" -}}
 {{- else -}}
 {{- print "apps/v1" -}}
