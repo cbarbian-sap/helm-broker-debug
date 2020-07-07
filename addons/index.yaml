@@ -4,3 +4,7 @@ entries:
     - name: debug
       description: "Debug service"
       version: 0.0.1 
+  postgresql-debug: 
+    - name: postgresql-debug
+      description: "Debug service"
+      version: 0.0.1 

@@ -1,0 +1,5 @@
+name: custom 
+id: 02528095-a50a-4c9f-a0e6-8fbd0d40b338
+description: "Custom plan"
+displayName: Custom
+bindable: true

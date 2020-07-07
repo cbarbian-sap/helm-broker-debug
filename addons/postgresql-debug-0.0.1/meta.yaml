@@ -1,0 +1,13 @@
+name: postgresql-debug
+version: 0.0.1
+id: 0b90dae7-627b-477f-8116-955679f212ef 
+description: "PostgreSQL by Helm Broker."
+displayName: "PostgreSQL"
+
+tags: database, cache
+providerDisplayName: bitnami
+longDescription: "PostgreSQL by Helm Broker."
+documentationURL: https://github.com/bitnami/charts/tree/master/bitnami/postgresql
+supportURL: https://bitnami.com/support
+imageURL: https://www.postgresql.org/media/img/about/press/elephant.png
+bindable: true
